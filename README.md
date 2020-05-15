@@ -16,11 +16,12 @@ The AWS CLI allows you to access and control services running in your AWS accoun
 
 In the terminal, to use your yml code to request the resources, type the following in the same directory as your yml file:
 
+```bash
 aws cloudformation create-stack 
---stack-name YOUR_STACK_NAME          --> name you want to give to your stack
---region us-west-2                    --> the region in which you want to deploy the infrastructure
---template-body your-file.yml         --> the file containing the script  
-
+--stack-name YOUR_STACK_NAME<br>         --> name you want to give to your stack
+--region us-west-2                       --> the region in which you want to deploy the infrastructure
+--template-body your-file.yml            --> the file containing the script  
+```
 
 The infrastructure is graphically representerd in the .jpg file.
 
