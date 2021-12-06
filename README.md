@@ -2,7 +2,7 @@
 
 
 ## Cloud Formation
-Tool in AWS for managing, configuring and deploying infrastructure (push code along with the necessary server configurations).
+Tool in AWS for managing, configuring and deploying infrastructure (pushes code along with the necessary server configurations).
 It uses a declarative language to deploy networking infrastructures using the AWS CLI. 
 It allows you to model your entire infrastructure in a text file and provision AWS resources based on the scripts you write.
 Templates are written using JSON or YAML.
